@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}Results{% endblock %}
+
+{% block content %}
+  <h1>Your Score:</h1>
+<p> You got {{ correct }} correct out of 3<br>
+You took {{time}} seconds <br>
+Question(s) you got wrong: {{ incorrect }}</p>
+
+
+{% endblock %}
